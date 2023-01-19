@@ -26,3 +26,6 @@ Fork this repository and complete the following tasks:
 2. The first rendered HTML page is Index, which contains a navbar linking it to sign-up, which is the second rendered html.
 3. The POST Method is used in the sign-up page along with request, which collects the entered data from the web-page, and it is used to print the data on the terminal.
 4. The Sign-up page contains some CSS taken from the internet.
+
+5. I am being unable to create database in postgresql.
+6. I tried editing a existing database, but unable to retrieve data entered in the table.
