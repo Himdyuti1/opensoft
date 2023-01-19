@@ -28,3 +28,4 @@ Fork this repository and complete the following tasks:
 4. The Sign-up page contains some CSS taken from the internet.
 
 5. Created the database and the table following the tutorial.
+6. Added a new column to a existing table, and updated datas to it.
