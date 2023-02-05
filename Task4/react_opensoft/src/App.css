@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital@1&family=Playfair+Display:ital@1&family=Shadows+Into+Light&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+};
+
+h1,h2,h3,h4,h5,h6{
+  color:#edf0f1;
+  margin-right:auto
+}
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  margin:0px;
+  padding:0;
+  display:flex;
+  justify-content: space-between;
+  background-color: #24252a;
+  align-items:center;
+  right:0px
+}
+
+.name{
+  font-family:"Playfair Display","Shadows Into Light","Bebas Neue","sans-serif";
+  color:white;
+  font-size:40 px;
+  align-items: center;
+}
+
+nav_links li,a{
+  font-family:"PT Serif","Montsserrat",sans-serif;
+  right:0px;
+  margin-left:auto;
+  font-weight: 500;
+  font-size:24px;
+  color:#edf0f1;
+}
+
+a:visited{
+  color:#edf0f1;
+}
+
+header{
+  display:flex-end;
+  align-items: center;
+  padding:0px;
+}
+
+.logo{
+  margin-right: auto
+}
+
+.nav_links li{
+  display: inline-block;
+  padding:0px 20px;
+}
+
+.nav_links li a:hover{
+  color:#0088a9;
+}
