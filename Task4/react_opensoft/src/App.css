@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital@1&family=Playfair+Display:ital@1&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital@1&family=Pacifico&family=Playfair+Display:ital@1&family=Shadows+Into+Light&display=swap');
 
 *{
-  box-sizing: border-box;
+  box-sizing: 100%;
   margin: 0;
   padding: 0;
 };
 
 h1,h2,h3,h4,h5,h6{
-  color:#edf0f1;
   margin-right:auto
 }
 
@@ -36,7 +35,9 @@ nav_links li,a{
   margin-left:auto;
   font-weight: 500;
   font-size:24px;
-  color:#edf0f1;
+  color:#ffffff;
+  background-color: #24252a;
+  text-decoration: none;
 }
 
 a:visited{
@@ -60,4 +61,44 @@ header{
 
 .nav_links li a:hover{
   color:#0088a9;
+}
+
+.light{
+  background-color: white;
+}
+
+.dark{
+  width: 100%;
+  background-color: #24252a;
+  color:white
+}
+
+.light button{
+  padding:14px 40px;
+  border-radius:8px;
+  transition-duration:1s;
+  background-color:#24252a;
+  font-family:Pacifico;
+  font-size:16px;
+  color:white
+}
+
+.light button:hover{
+  background-color:aqua;
+  color:black
+}
+
+.dark button{
+  color:black;
+  background-color: white;
+  padding:14px 40px;
+  border-radius:8px;
+  transition-duration: 1s;
+  color:black;
+  font-family:Pacifico;
+  font-size:16px;
+}
+
+.dark button:hover{
+  background-color:aqua;
 }
